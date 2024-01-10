@@ -1,78 +1,74 @@
 @import url(./base.css);
 
-a {
-  all: initial;
-}
-
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Open Sans;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Open Sans;
 }
 .container {
-  max-width: 1472px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 16px;
+	max-width: 1472px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 16px;
 }
 header {
-  background: linear-gradient(270deg, #d9281c 0%, #ff5145 100%);
+	background: linear-gradient(270deg, #d9281c 0%, #ff5145 100%);
 }
 .nav-main__modalWindowimg {
-  background-color: #ff5145;
-  width: 50px;
-  height: 42px;
+	background-color: #ff5145;
+	width: 50px;
+	height: 42px;
 }
 .nav-main__logo-img {
-  width: 255px;
-  height: 55px;
+	width: 255px;
+	height: 55px;
 }
 .search__headerSvg {
-  width: 26px;
-  height: 26px;
+	width: 26px;
+	height: 26px;
 }
 .calback__headerSvg {
-  width: 20px;
-  height: 20px;
+	width: 20px;
+	height: 20px;
 }
 .heart__headerSvg {
-  width: 32px;
-  height: 28px;
+	width: 32px;
+	height: 28px;
 }
 .korzinka__header {
-  width: 35px;
-  height: 38px;
+	width: 35px;
+	height: 38px;
 }
 .header__nav-menu > * + * {
-  margin-left: 92px;
+	margin-left: 92px;
 }
 .header__nav-menu a {
-  color: #ffccc9;
-  font-family: 'Open Sans';
-  font-size: 14px;
+	color: #ffccc9;
+	font-family: 'Open Sans';
+	font-size: 14px;
 }
 
 .nav-main {
-  display: flex;
+	display: flex;
 }
 /* MAIN */
 .slider-p {
-  position: absolute;
-  margin: -165px 90px;
-  color: white;
-  font-size: 30px;
+	position: absolute;
+	margin: -165px 90px;
+	color: white;
+	font-size: 30px;
 }
 .slider-cena-skidka {
-  position: absolute;
-  margin: -105px 90px;
-  color: white;
-  text-decoration: line-through;
+	position: absolute;
+	margin: -105px 90px;
+	color: white;
+	text-decoration: line-through;
 }
-.slider{
-margin-top: 32px;
+.slider {
+	margin-top: 32px;
 }
-.slider-cena-segodnya{
+.slider-cena-segodnya {
 	position: absolute;
 	margin: -105px 700px;
 	color: white;
