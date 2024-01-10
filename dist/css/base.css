@@ -1,0 +1,41 @@
+* {
+	/* background-color: black; */
+	margin: 0px;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img,
+svg {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+a,
+span,
+label,
+textarea,
+input,
+button {
+	display: inline-block;
+	font-family: inherit;
+	font-weight: inherit;
+}
+
+a,
+label,
+textarea,
+input,
+button {
+	cursor: pointer;
+}
+
+ul,
+ol {
+	list-style-type: none;
+}
+
+/* a {
+	all: initial;
+} */
