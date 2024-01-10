@@ -1,8 +1,8 @@
 @import url(./base.css);
 
-/* a {
+a {
 	all: initial;
-} */
+}
 
 .container {
 	max-width: 1472px;
@@ -50,3 +50,20 @@ header {
 .nav-main {
 	display: flex;
 }
+
+footer{
+	background-color: rgb(20, 20, 20);
+
+
+}
+
+footer__logo-nav img{
+	
+}
+
+.logo-nav__img{
+width: 30px;
+height: 20px;
+}
+
+
