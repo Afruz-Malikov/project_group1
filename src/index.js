@@ -1,1 +1,1 @@
-console.log('привет')
+console.log('гайс вы проиграли')
