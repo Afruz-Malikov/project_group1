@@ -1,0 +1,21 @@
+.slider-p {
+	position: absolute;
+	margin: -165px 90px;
+	color: white;
+	font-size: 30px;
+}
+.slider-cena-skidka {
+	position: absolute;
+	margin: -105px 90px;
+	color: white;
+	text-decoration: line-through;
+}
+.slider {
+	margin-top: 32px;
+}
+.slider-cena-segodnya {
+	position: absolute;
+	margin: -105px 700px;
+	color: white;
+	font-size: 30px;
+}
