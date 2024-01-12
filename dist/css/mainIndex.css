@@ -4,6 +4,8 @@
 	color: #ffffff;
 	display: flex;
 	align-items: center;
+	background-size: cover;
+	min-height: 402px;
 }
 
 .slider-item-wrap {
