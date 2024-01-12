@@ -1,21 +1,16 @@
-.slider-p {
-	position: absolute;
-	margin: -165px 90px;
-	color: white;
-	font-size: 30px;
+.slider-item {
+	padding: 175px 137px 106px;
+	background-color: black;
+	color: #ffffff;
+	display: flex;
+	align-items: center;
 }
-.slider-cena-skidka {
-	position: absolute;
-	margin: -105px 90px;
-	color: white;
-	text-decoration: line-through;
+
+.slider-item-wrap {
+	max-width: 415px;
 }
-.slider {
-	margin-top: 32px;
-}
-.slider-cena-segodnya {
-	position: absolute;
-	margin: -105px 700px;
-	color: white;
-	font-size: 30px;
+
+.new-price {
+	flex-grow: 1;
+	text-align: right;
 }
