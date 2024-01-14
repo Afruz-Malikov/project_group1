@@ -15,47 +15,73 @@
 	<body>
 		<header>
 			<div class="container">
-				<nav class="nav-menu">
-					<a href="#" class="header__nav-menu__link"> Главная </a>
-					<a href="#" class="header__nav-menu__link"> О Нас </a>
-					<a href="#" class="header__nav-menu__link"> Бренды </a>
-				</nav>
+				<!-- Менюшка -->
+				<div class="navbar__menu">
+					<nav class="nav-menu">
+						<a href="#" class="header__nav-menu__link"> Главная </a>
+						<a href="#" class="header__nav-menu__link"> О Нас </a>
+						<a href="#" class="header__nav-menu__link"> Бренды </a>
+					</nav>
+				</div>
+
+				<!-- Главный Навбар -->
+
 				<div class="secondnavbar">
-					<nav class="nav-logo-button-catalog">
+					
+					<!-- Первая часть навбара -->
+					<div class="secondnavbar__firstpart">
+							<!-- Кнопка для каталога -->
+							<nav class="nav-button-modal">
 						<button class="modal-menu-button">
 							<img src="./svg/modalWbutton.svg" alt="error" />
 						</button>
+					</nav>
+
+					<!-- Лого Сайта -->
+					<nav class="nav-logo">
 						<a href="#">
 							<img src="./img/ikisound.png" alt="error" />
 						</a>
 					</nav>
-					<nav class="nav-search">
+				</div>
+			
+
+					<!-- Вторая Часть -->
+					<div class="seconnavbar__secondpart">
+						<!-- Поисковик -->
+						<nav class="nav-search">
 						<form>
 							<img src="./svg/search__header.svg" alt="error" />
-							<input type="text" placeholder="Поиск в каталоге товаров" />
+							<input
+								type="text"
+								placeholder="                Поиск в каталоге товаров" />
 						</form>
 					</nav>
-					<nav class="nav-callback">
-						<img src="./svg/calback__header.svg" alt="error" />
-						<a href="#">8 800 444 20 35</a>
-						<br />
-						<a href="#">Обратная связь</a>
+				</div>
+					
+<div class="secondnavbar">
+		<!-- Обратная Связь -->
+					<nav class="callback">
+							<img src="./svg/calback__header.svg" alt="error" />
+							<a href="#" class="callback-links-number">8 800 444 20 35</a>
+						<a href="#" class="callback-links">Обратная связь</a>
 					</nav>
-					<nav class="nav-elect">
+					<!-- Избранныые предметы -->
+					<nav class="item-elect">
 						<img src="./svg/heart__header.svg" alt="error" />
 						<a href="#">Избранное</a>
 					</nav>
-
-					<nav class="nav-basket">
+					<!-- КОрзина ПРЕдметов -->
+					<nav class="item-basket">
 						<span class="navbar__message">0 </span>
 						<img src="./svg/basket.svg" alt="error" />
-
-						<a href="#">Избранное</a>
 					</nav>
-				</div>
+				</nav>
+</div>
+				
 			</div>
 		</header>
-		<!-- <main>
+		<main>
 			<div class="container">
 				<div class="slider"></div>
 				<div
@@ -78,7 +104,7 @@
 				<p class="slider-cena-skidka">18 200 руб</p>
 				<p class="slider-cena-segodnya">15 250 руб</p>
 			</div>
-		</main> -->
+		</main>
 		<footer></footer>
 	</body>
 </html>
