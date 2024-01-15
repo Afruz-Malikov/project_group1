@@ -6,6 +6,11 @@
 } */
 header {
 	background: linear-gradient(270deg, #d9281c 0%, #ff5145 100%);
+	width: 1920px;
+	height: 224px;
+}
+.navbar__menu {
+	display: block;
 }
 .nav-menu > * + * {
 	margin-left: 92px;
@@ -17,43 +22,100 @@ header {
 	text-decoration: none;
 }
 
-.secondnavbar {
-	display: flex;
+.secondnavbar > * {
+	display: inline-block;
+	/* margin-top: 37px; */
+	/* margin-bottom: 31px; */
 }
-.nav-logo-button-modal {
+.secondnavbar__firstpart {
 }
-.nav-logo-button-modal .modal-menu-button {
+.nav-button-modal {
+	margin-right: 10px;
+}
+.nav-button-modal button {
+	border-radius: 5px;
+	background-color: #ff5145;
 	width: 50px;
 	height: 42px;
-	border: 1px solid #fb9892;
+	border: 1px solid #ffccc9;
 }
-.nav-logo-button-modal img {
+.nav-button-modal img {
+	background-color: #ff5145;
+	width: 30px;
+	height: 22px;
+	margin: 10px;
+}
+.nav-logo {
+	/* margin: top 30px; */
+	margin: right 20px;
+}
+.nav-logo a img {
 	width: 255px;
-	height: 25px;
+	height: 55px;
 }
 .nav-search {
-}
-.nav-search input {
+	margin-left: 20px;
+	margin-right: 11px;
 }
 .nav-search img {
-	width: 26.04px;
+	position: absolute;
+	margin: 14px;
+	width: 26.039px;
 	height: 26px;
 }
-.nav-callback {
+.nav-search form {
+	position: relative;
 }
-
-.nav-callback img {
+.nav-search form input {
+	width: 731px;
+	height: 54px;
+	border: none;
+	border-radius: 27px 25px 25px 27px;
+	background: rgba(255, 255, 255, 0.21);
+}
+.nav-search form input::placeholder {
+	color: rgba(255, 255, 255, 0.56);
+	font-family: Open Sans;
+	font-size: 14px;
+	font-weight: 400;
+}
+.callback {
+	margin-left: 11px;
+	margin-right: 20px;
+}
+.callback img {
 	width: 20px;
 	height: 20px;
+	margin-right: 10px;
 }
-
-.nav-elect {
+.callback__links-number > * {
+	display: inline-block;
 }
-.nav-elect img {
+.callback .callback-links {
+	color: #fff;
+	font-family: Open Sans;
+	font-size: 14px;
+	font-weight: 400;
+	margin-left: 20px;
+}
+.callback .callback-links-number {
+	color: #fff;
+	font-family: Open Sans;
+	font-size: 16px;
+	font-weight: 400;
+	text-decoration: none;
+}
+.item-elect {
+	margin-left: 20px;
+}
+.item-elect img {
 	width: 32px;
 	height: 28px;
 }
-.nav-basket {
-	width: 35px;
-	height: 28px;
+.item-elect a {
+	color: #fff;
+	font-family: Open Sans;
+	font-size: 12px;
+	font-weight: 400;
+	text-decoration: none;
 }
