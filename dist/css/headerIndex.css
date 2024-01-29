@@ -90,18 +90,37 @@ header {
 .callback__menu {
 	list-style: none;
 }
-.number {
-	font-size: 16px;
-}
-.number::before {
-	content: url(/dist/svg/calback__header.svg);
+.number > * {
 	display: inline-block;
-	width: 20px;
-	height: 20px;
+	/* font-size: 16px; */
+}
+.number img {
+	font-size: 16px;
 }
 .call {
 	font-size: 14px;
+	margin-left: 10px;
 }
 .call a {
 	text-decoration: underline;
+	margin-left: 10px;
+}
+.special {
+	position: relative;
+	margin-left: 33px;
+}
+.special img {
+	display: block;
+}
+.special a {
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+.counters {
+	position: absolute;
+	border-radius: 17px;
+	background-color: #ff9344;
+	width: 17px;
+	height: 17px;
 }
