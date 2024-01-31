@@ -22,11 +22,6 @@ header {
 	text-decoration: none;
 }
 
-/* .secondnavbar > * {
-	display: inline-block;
-	margin-top: 37px;
-/* margin-bottom: 31px; */
-/* } */
 .second_navbar {
 	display: flex;
 	flex-wrap: wrap;
