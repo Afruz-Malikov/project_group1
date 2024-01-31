@@ -115,3 +115,12 @@
 .cena-new{
     font-size: 30px;
 }
+
+.inform{
+    display: flex;
+    justify-content: space-around;
+}
+.kredit{
+    color:red;
+    font-size: 17px;
+}
