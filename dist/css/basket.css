@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.glav-and-backet {
+    display: flex;
+    gap: 10px;
+    color: #6D6D6D;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 35px;
+}
+
+.glav {
+    color: #6D6D6D;
+    font-size: 20px;
+    margin-left: 100px;
+
+}
+
+.backet {
+    color: #6D6D6D;
+    font-size: 20px;
+}
+
+.slash {
+    color: #6D6D6D;
+    font-size: 20px;
+}
+
+.back {
+    font-size: 35px;
+    color: #212121;
+    font-family: "Open Sans ";
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+.vibor {
+    display: flex;
+}
+
+.colonka2 {
+    height: 254px;
+    flex-shrink: 0;
+    padding-left: 30px;
+    padding: 20px 20px;
+}
+
+.opisan-tov {
+    color: #212121;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 15px 30px;
+}
+
+.tovar {
+    display: flex;
+}
+
+.kol {
+    padding-left: 30px;
+}
+
+.kod {
+    padding-left: 30px;
+}
+
+.dino {
+    background-color: #F5F6F8;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+
+.kolich {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.plase {
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+}
+
+.minuse {
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+}
+
+.num {
+    font-size: 30px;
+    padding: 20px;
+}
+.cena-old{
+    text-decoration: line-through;
+    font-size: 20px;
+}
+.cena-new{
+    font-size: 30px;
+}
+
+.inform{
+    display: flex;
+    justify-content: space-around;
+}
+.kredit{
+    color:red;
+    font-size: 17px;
+}
