@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: "Open Sans";
 }
 
 .glav-and-backet {
@@ -80,6 +81,7 @@
 }
 
 .dino {
+    display: flex;
     background-color: #F5F6F8;
     margin-left: 100px;
     border-radius: 5px;
@@ -108,19 +110,89 @@
     font-size: 30px;
     padding: 20px;
 }
-.cena-old{
+
+.cena{
+    padding-top: 10px;
+}
+.cena-old {
     text-decoration: line-through;
     font-size: 20px;
 }
-.cena-new{
+
+.cena-new {
     font-size: 30px;
 }
 
-.inform{
+.inform {
     display: flex;
     justify-content: space-around;
 }
-.kredit{
-    color:red;
+
+.kredit {
+    color: red;
     font-size: 17px;
+}
+
+.itog {
+    font-size: 34px;
+    padding-bottom: 10px;
+}
+
+.colich {
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.skid {
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.plagin {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.podarok {
+    font-size: 20px;
+
+}
+
+.chena {
+    padding-left: 50px;
+    font-size: 25px;
+    padding-bottom: 17px;
+}
+
+.inp {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+.container2 {
+    display: flex;
+    padding-left: 100px;
+}
+
+.cena-mal {
+    padding-left: 70px;
+    padding-bottom: 5px;
+}
+
+.skidka {
+    padding-left: 72px;
+    padding-bottom: 5px;
+}
+
+.podar {
+    padding-left: 90px;
+    padding-bottom: 5px;
+}
+
+.urok {
+    padding-left: 95px;
+    padding-bottom: 5px;
+}
+.name{
 }
