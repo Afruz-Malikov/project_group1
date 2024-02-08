@@ -1,198 +1,149 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: "Open Sans";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Open Sans';
 }
 
 .glav-and-backet {
-    display: flex;
-    gap: 10px;
-    color: #6D6D6D;
-    font-family: "Open Sans";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 35px;
+  display: flex;
+  gap: 10px;
+  color: #6d6d6d;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 35px;
 }
 
 .glav {
-    color: #6D6D6D;
-    font-size: 20px;
-    margin-left: 100px;
-
+  color: #6d6d6d;
+  font-size: 20px;
+  margin-left: 100px;
 }
 
 .backet {
-    color: #6D6D6D;
-    font-size: 20px;
+  color: #6d6d6d;
+  font-size: 20px;
 }
 
 .slash {
-    color: #6D6D6D;
-    font-size: 20px;
+  color: #6d6d6d;
+  font-size: 20px;
 }
 
 .back {
-    font-size: 35px;
-    color: #212121;
-    font-family: "Open Sans ";
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
-    padding-top: 30px;
-    padding-left: 100px;
+  font-size: 35px;
+  color: #212121;
+  font-family: 'Open Sans ';
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-top: 30px;
+  padding-left: 100px;
 }
 
-.vibor {
-    display: flex;
+.dinamik2 {
+  width: 230px;
 }
 
-.colonka2 {
-    height: 254px;
-    flex-shrink: 0;
-    padding-left: 30px;
-    padding: 20px 20px;
+.behringer {
+  font-size: 30px;
 }
 
-.opisan-tov {
-    color: #212121;
-    font-family: "Open Sans";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    padding: 15px 30px;
+.products__item {
+  display: flex;
+  margin-left: 100px;
+  border-radius: 10px;
+  background-color: #f5f6f8;
 }
 
-.tovar {
-    display: flex;
+.products__row {
+  display: flex;
+
+  background-color: #f5f6f8;
 }
 
-.kol {
-    padding-left: 30px;
+.quantity .number {
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 0 10px 0 10px;
 }
 
-.kod {
-    padding-left: 30px;
+.minus {
+  width: 30px;
+  height: 30px;
+  border-radius: 45px;
 }
 
-.dino {
-    display: flex;
-    background-color: #F5F6F8;
-    margin-left: 100px;
-    border-radius: 5px;
+.place {
+  width: 30px;
+  height: 30px;
+  border-radius: 45px;
 }
 
-.kolich {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-
+.The_price_is_past {
+  text-decoration: line-through;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #68686885;
 }
 
-.plase {
-    width: 30px;
-    height: 30px;
-    border-radius: 45px;
+.credit {
+  color: red;
 }
 
-.minuse {
-    width: 30px;
-    height: 30px;
-    border-radius: 45px;
+.products_text {
+  margin-left: 20px;
 }
 
-.num {
-    font-size: 30px;
-    padding: 20px;
+.quantity {
+  margin-left: 30px;
+  padding-top: 80px;
 }
 
-.cena{
-    padding-top: 10px;
-}
-.cena-old {
-    text-decoration: line-through;
-    font-size: 20px;
+.in__stock {
+  font-size: 15px;
+  padding-top: 10px;
 }
 
-.cena-new {
-    font-size: 30px;
+.quantity__extra > * + * {
+  margin-left: 35px;
 }
 
-.inform {
-    display: flex;
-    justify-content: space-around;
+.quantity__extra-btn {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #686868;
+  text-decoration: none;
+  border-bottom: 1px dotted #686868;
 }
 
-.kredit {
-    color: red;
-    font-size: 17px;
+.code {
+  padding-top: 10px;
 }
 
-.itog {
-    font-size: 34px;
-    padding-bottom: 10px;
+.price_now {
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
-.colich {
-    font-size: 15px;
-    padding-bottom: 5px;
-}
-
-.skid {
-    font-size: 15px;
-    padding-bottom: 5px;
-}
-
-.plagin {
-    font-size: 20px;
-    padding-bottom: 5px;
-}
-
-.podarok {
-    font-size: 20px;
-
-}
-
-.chena {
-    padding-left: 50px;
-    font-size: 25px;
-    padding-bottom: 17px;
-}
-
-.inp {
-    display: flex;
-    flex-direction: column;
-    padding-top: 5px;
-}
-
-.container2 {
-    display: flex;
-    padding-left: 100px;
-}
-
-.cena-mal {
-    padding-left: 70px;
-    padding-bottom: 5px;
-}
-
-.skidka {
-    padding-left: 72px;
-    padding-bottom: 5px;
-}
-
-.podar {
-    padding-left: 90px;
-    padding-bottom: 5px;
-}
-
-.urok {
-    padding-left: 95px;
-    padding-bottom: 5px;
-}
-.name{
-}

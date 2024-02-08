@@ -1,73 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/basket.css">
-</head>
+    <link rel="stylesheet" href="css/basket.css" />
+  </head>
 
-<body>
+  <body>
     <main>
+      <div class="container">
+        <nav class="glav-and-backet">
+          <a class="glav" href="">Главное</a>
+          <p class="slash">/</p>
+          <a class="backet" href="">Корзина</a>
+        </nav>
+        <p class="back">Корзина</p>
+      </div>
+      <section class="products">
         <div class="container">
-
-            <nav class="glav-and-backet">
-                <a class="glav" href="">Главное</a>
-                <p class="slash">/</p>
-                <a class="backet" href="">Корзина</a>
-            </nav>
-            <p class="back">Корзина</p>
-
-
-            <section class="dino">
-                <div class="tovar">
-                    <div class="vibor">
-                        <img class="colonka2" src="./img/colonka2.png" alt="">
-                    </div>
-                    <div class="inform">
-                        <div class="kolichestvo">
-                            <p class="opisan-tov">Behringer - MS20 (пара)</p>
-                            <p class="kol"> В наличии:1</p>
-                            <p class="kod"> Код товара:1266</p>
-                        </div>
-                        <div class="kolich">
-                            <button class="minuse">-</button>
-                            <p class="num"><b>1</b></p>
-                            <button class="plase">+</button>
-
-                        </div>
-                        <div class="cena">
-                            <p class="cena-new"><b>26 850 руб</b></p>
-                            <p class="cena-old">26 850 руб</p>
-                            <p class="kredit">кредит от 5 744 р/мес</p>
-                        </div>
-                    </div>
+          <div class="products__row">
+            <div class="products__items">
+              <div class="products__item">
+                <div class="products__itema">
+                  <img class="dinamik2" src="./img/colonka2.png" alt="" />
                 </div>
-                <div class="container2">
-                    <div class="itg-chena">
-                        <p class="itog"><b>Итого</b></p>
-                        <p class="colich">Товары:4</p>
-                        <p class="skid">Скидки</p>
-                        <p class="plagin">Плагин в подарок</p>
-                        <p class="podarok">Подарочных видеокурсов </p>
-                        <form class="inp" action="">
-                            <input class="name" type="text">
-                            <input  class="tel" type="number">
-                        </form>
-                    </div>
-                    <div class="cifri">
-                        <p class="chena"><b>17 950Р</b></p>
-                        <p class="cena-mal">17 950 Р</p>
-                        <p class="skidka">-1 650 Р</p>
-                        <p class="podar">1 год</p>
-                        <p class="urok">2 шт</p>
-                    </div>
+                <div class="products_text">
+                  <strong class="behringer">Behringer - MS20 (пара)</strong>
+                  <p class="in__stock">В наличии: 1</p>
+                  <p class="code">Код товара: 1266</p>
                 </div>
-            </section>
+
+                <div class="quantity">
+                  <button class="minus">-</button>
+                  <strong class="number">1</strong>
+                  <button class="place">+</button>
+                  <div class="quantity__extra">
+                    <a href="#!" class="quantity__extra-btn">Удалить</a>
+                    <a href="#!" class="quantity__extra-btn">В избранное</a>
+                  </div>
+                </div>
+                <div class="price">
+                  <p class="price_now">26 850 руб</p>
+                  <p class="The_price_is_past">26 850 руб</p>
+                  <p class="credit">кредит от 5 744 р/мес</p>
+                </div>
+              </div>
+            </div>
+            <div class="products_total_price">
+              <p class="products_tottal_price_prise">
+                <strong>Итого</strong>
+                <strong>17 950P</strong>
+              </p>
+              <p class="goods_quantity">
+                <span>Товары: 4шт</span>
+                <span>17 950 Р</span>
+              </p>
+              <p class="products_discount">
+                <span>Скидка</span>
+                <span>-1 650 Р</span>
+              </p>
+            </div>
+          </div>
         </div>
+      </section>
     </main>
-
-</body>
-
+  </body>
 </html>
