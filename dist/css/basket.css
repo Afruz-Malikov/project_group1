@@ -63,8 +63,6 @@
 
 .products__row {
   display: flex;
-
-  background-color: #f5f6f8;
 }
 
 .quantity .number {
@@ -146,4 +144,8 @@
   letter-spacing: 0em;
   text-align: left;
 }
-
+.products_total_price {
+  background-color: #f5f6f8;
+  margin-left: 50px;
+}
+.price_2
