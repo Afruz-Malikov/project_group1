@@ -1,69 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/basket.css" />
-  </head>
 
-  <body>
-    <main>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/basket.css" />
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <nav class="glav-and-backet">
+        <a class="glav" href="">Главное</a>
+        <p class="slash">/</p>
+        <a class="backet" href="">Корзина</a>
+      </nav>
+      <p class="back">Корзина</p>
+    </div>
+    <section class="products">
       <div class="container">
-        <nav class="glav-and-backet">
-          <a class="glav" href="">Главное</a>
-          <p class="slash">/</p>
-          <a class="backet" href="">Корзина</a>
-        </nav>
-        <p class="back">Корзина</p>
-      </div>
-      <section class="products">
-        <div class="container">
-          <div class="products__row">
-            <div class="products__items">
-              <div class="products__item">
-                <div class="products__itema">
-                  <img class="dinamik2" src="./img/colonka2.png" alt="" />
-                </div>
-                <div class="products_text">
-                  <strong class="behringer">Behringer - MS20 (пара)</strong>
-                  <p class="in__stock">В наличии: 1</p>
-                  <p class="code">Код товара: 1266</p>
-                </div>
+        <div class="products__row">
+          <div class="products__items">
+            <div class="products__item">
+              <div class="products__itema">
+                <img class="dinamik2" src="./img/colonka2.png" alt="" />
+              </div>
+              <div class="products_text">
+                <strong class="behringer">Behringer - MS20 (пара)</strong>
+                <p class="in__stock">В наличии: 1</p>
+                <p class="code">Код товара: 1266</p>
+              </div>
 
-                <div class="quantity">
-                  <button class="minus">-</button>
-                  <strong class="number">1</strong>
-                  <button class="place">+</button>
-                  <div class="quantity__extra">
-                    <a href="#!" class="quantity__extra-btn">Удалить</a>
-                    <a href="#!" class="quantity__extra-btn">В избранное</a>
-                  </div>
-                </div>
-                <div class="price">
-                  <p class="price_now">26 850 руб</p>
-                  <p class="The_price_is_past">26 850 руб</p>
-                  <p class="credit">кредит от 5 744 р/мес</p>
+              <div class="quantity">
+                <button class="minus">-</button>
+                <strong class="number">1</strong>
+                <button class="place">+</button>
+                <div class="quantity__extra">
+                  <a href="#!" class="quantity__extra-btn">Удалить</a>
+                  <a href="#!" class="quantity__extra-btn">В избранное</a>
                 </div>
               </div>
-            </div>
-            <div class="products_total_price">
-              <p class="products_tottal_price_prise">
-                <strong>Итого</strong>
-                <strong class="price_2">17 950P</strong>
-              </p>
-              <p class="goods_quantity">
-                <span>Товары: 4шт</span>
-                <span>17 950 Р</span>
-              </p>
-              <p class="products_discount">
-                <span>Скидка</span>
-                <span>-1 650 Р</span>
-              </p>
+              <div class="price">
+                <p class="price_now">26 850 руб</p>
+                <p class="The_price_is_past">26 850 руб</p>
+                <p class="credit">кредит от 5 744 р/мес</p>
+              </div>
             </div>
           </div>
+          <div class="products_total_price">
+            <p class="products_tottal_price_prise" style="margin-bottom: 10px;">
+              <strong>Итого</strong>
+              <strong class="price_2">17 950P</strong>
+            </p>
+            <p class="goods_quantity" style="margin-bottom: 10px;">
+              <span>Товары: 4шт</span>
+              <span class="total_price">17 950 Р</span>
+            </p>
+            <p class="products_discount" style="margin-bottom: 10px;">
+              <span>Скидка</span>
+              <span class="discount">-1 650 Р</span>
+            </p>
+            <nav class="plugin_prize" style="margin-bottom: 10px;">
+              <a href="#">
+                <img class="prizent" src="./svg/Group 3795.svg" alt="">
+              </a>
+              <a class="prizent_plagin" href="#">
+                <strong class="plugin">Плагин в подарок</strong>
+                <small class="prizent_plagin_small">1 год</small>
+              </a>
+
+            </nav>
+            <nav class="video_tutorial_prize">
+              <a class="video_tutorial" href="#">
+                <img class="video_svg" src="./svg/Group 3791.svg" alt="">
+              </a>
+              <a class="video_text" href="" style="margin-bottom: 20px;">
+                <strong>Подарочных видеокурсов</strong>
+                <small class="video_text_small">2шт</small>
+              </a>
+            </nav>
+
+
+            <small class="Full_name">Имя/Фамилия/Отчество*</small>
+            <form class="name" action="">
+              <input class="ivan" type="text" placeholder="Иван Иванов Иванович">
+            </form>
+
+
+            <small>Телефон*</small>
+            <form action="" class="phone_number" >
+              <input  class="number" type="number" placeholder="Иванов">
+            </form>
+
+
+            <small>E-mail</small>
+            <form action="" class="E-mail">
+              <input class="mail" type="email" placeholder="example@gmail.com">
+            </form>
+
+            
+          </div>
         </div>
-      </section>
-    </main>
-  </body>
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>
