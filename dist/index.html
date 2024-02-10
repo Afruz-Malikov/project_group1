@@ -14,63 +14,62 @@
 	</head>
 	<body>
 		<header class="header">
-			<div class="container">
+			<div class="header-container">
 				<!-- Менюшка -->
-				<section class="navbarMenu">
+				<section class="header__navbar-menu">
 					<nav class="nav-menu">
 						<a href="#" class="header__nav-menu__link"> Главная </a>
 						<a href="#" class="header__nav-menu__link"> О Нас </a>
 						<a href="#" class="header__nav-menu__link"> Бренды </a>
 					</nav>
 				</section>
-				<!-- Навбар -->
-				<section class="second_navbar">
-					<!-- Кнопка-Каталог -->
-					<nav class="catalog-menu">
-						<button class="catalog-menu__button">
-							<img src="./svg/modalWbutton.svg" alt="error" />
+				<section class="header__content">
+					<div class="button-logo">
+							<button class="button-modal">
+								<img src="./svg/modalWbutton.svg" alt="error">
+							</button>
+							<a href="#">
+								<img src="./svg/Ikisound_logo.svg" alt="error">
+							</a>
+							<span class="ikisound">ikisound</span>
+					</div>
+					<div class="search">
 						</button>
-						<!-- Лого -->
-						<nav class="logo">
-							<img src="./svg/Ikisound.svg" alt="error" />
+							<form class="search__form">
+									<img src="./svg/search__header.svg" alt="error">
+								<input type="text" placeholder="Поиск в каталоге товаров"> 
+							
+							</form>
+						</div>
+						<div class="catalog-callback-specialy-basket">
+          <div class="callback">
+						<nav class="callback__number">
+							<img src="./svg/calback__header.svg" alt="error">
+							<a href="#">8 800 444 20 35</a>
 						</nav>
-					</nav>
-
-					<!-- Поисковик  -->
-					<nav class="search">
-						<form>
-							<img src="./svg/search__header.svg" alt="error" />
-							<input
-								type="text"
-								placeholder="              Поиск в каталоге товаров" />
-						</form>
-					</nav>
-					<!-- Остальные Возможности -->
-					<nav class="callback">
-						<ul class="callback__menu">
-							<li class="number">
-								<a href="#">8 800 444 20 35</a>
-							</li>
-							<li class="call">
-								<a href="#">Обратная связь</a>
-							</li>
-						</ul>
-					</nav>
-					<nav class="special">
-						<a href="">
-							<img src="./svg/special.svg" alt="error" />
+						<nav class="callback__callback">
+							<a href="#">Обратная связь</a>
+						</nav>
+					</div>
+          <div class="special">
+						<!-- <span class="special__counter">0</span> -->
+						<a href="#">
+							<img src="./svg/heart__header.svg" alt="error">
 						</a>
-						<a href=""> Избранное </a>
-						<span class="counters"> 0 </span>
-					</nav>
-					<nav class="basket">
-						<a href="./basket.html">
-							<img src="./svg/basket.svg" alt="error" />
+						<a href="#" class="special__title">
+							Избранное
 						</a>
-						<span class="counterb">0</span>
-					</nav>
-				</section>
-			</div>
+					</div>
+					<div class="basket">
+						<!-- <span class="basket__counter">0</span> -->
+						<a href="#">
+							<img src="./svg/basket.svg" alt="error">
+						</a>
+						<a href="#" class="basket__title">
+							Корзина
+						</a>
+					</div>
+						</div>
 		</header>
 		<main>
 			<div class="container">
