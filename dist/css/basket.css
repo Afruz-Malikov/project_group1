@@ -243,3 +243,63 @@
   border: 1px;
   text-align: center;
 }
+.city {
+  width: 360px;
+  height: 43px;
+  top: 790px;
+  left: 1300px;
+  border-radius: 21.5px;
+  border: 1px;
+  text-align: center;
+}
+.strite {
+  width: 360px;
+  height: 43px;
+  top: 880px;
+  left: 1300px;
+  border-radius: 21.5px;
+  text-align: center;
+  border: 1px;
+}
+.index {
+  width: 360px;
+  height: 43px;
+  top: 970px;
+  left: 1300px;
+  border-radius: 21.5px;
+  text-align: center;
+  border: 1px;
+}
+.index_city {
+  margin-bottom: 20px;
+}
+.scam_buttom {
+  width: 219px;
+  height: 43px;
+  top: 1033px;
+  left: 1371px;
+  border-radius: 71px;
+  background: rgb(255, 75, 75);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 75, 75, 1) 0%,
+    rgba(255, 0, 0, 1) 49%,
+    rgba(167, 0, 0, 1) 100%
+  );
+  font-size: 18px;
+  font-family: 'Gill Sans', sans-serif;
+  color: white;
+  border: 0;
+}
+.grey {
+  color: #686868;
+}
+.check_mark_team {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  gap: 5px;
+  margin-top: 15px;
+}
