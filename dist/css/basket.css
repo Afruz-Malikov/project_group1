@@ -286,10 +286,12 @@
     rgba(255, 0, 0, 1) 49%,
     rgba(167, 0, 0, 1) 100%
   );
-  font-size: 18px;
+  border: 0;
+}
+.checkout {
+  font-size: 15px;
   font-family: 'Gill Sans', sans-serif;
   color: white;
-  border: 0;
 }
 .grey {
   color: #686868;
@@ -302,4 +304,45 @@
   display: flex;
   gap: 5px;
   margin-top: 15px;
+}
+
+.label {
+  position: relative;
+  display: flex;
+}
+
+.checkbox-original {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0;
+}
+
+.checkbox-custome {
+  display: block;
+  width: 16.36px;
+  height: 15.55px;
+  border-radius: 4px;
+  border: 1px solid #d5d5d5;
+  position: relative;
+}
+
+.checkbox-custome::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: url('../svg/checked.svg');
+  width: 16px;
+  height: 14px;
+  opacity: 0;
+}
+
+.checkbox-original:checked ~ .checkbox-custome::after {
+  opacity: 1;
+}
+.products__items {
+  height: 250px;
 }
