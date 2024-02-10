@@ -21,7 +21,7 @@
 .glav {
   color: #6d6d6d;
   font-size: 20px;
-  margin-left: 100px;
+  margin-left: 240px;
 }
 
 .backet {
@@ -43,22 +43,27 @@
   line-height: normal;
   text-transform: uppercase;
   padding-top: 30px;
-  padding-left: 100px;
+  margin-left: 240px;
+  margin-bottom: 26px;
 }
 
 .dinamik2 {
   width: 230px;
+  padding-left: 49px;
 }
 
 .behringer {
   font-size: 30px;
+  padding-left: 48px;
 }
 
 .products__item {
+}
+
+.products__item__wrap {
   display: flex;
-  margin-left: 100px;
-  border-radius: 10px;
-  background-color: #f5f6f8;
+  margin-left: 239px;
+  margin-bottom: 39px;
 }
 
 .products__row {
@@ -114,6 +119,7 @@
 .in__stock {
   font-size: 15px;
   padding-top: 10px;
+  padding-left: 48px;
 }
 
 .quantity__extra > * + * {
@@ -134,6 +140,7 @@
 
 .code {
   padding-top: 10px;
+  padding-left: 48px;
 }
 
 .price_now {
@@ -147,7 +154,7 @@
 
 .products_total_price {
   background-color: #f5f6f8;
-  margin-left: 50px;
+  margin-left: 48px;
 }
 
 .prizent_plagin {
@@ -286,6 +293,7 @@
     rgba(255, 0, 0, 1) 49%,
     rgba(167, 0, 0, 1) 100%
   );
+
   border: 0;
 }
 .checkout {
@@ -343,6 +351,26 @@
 .checkbox-original:checked ~ .checkbox-custome::after {
   opacity: 1;
 }
-.products__items {
-  height: 250px;
+.delivery {
+  font-family: 'Open Sans';
+  font-size: 24px;
+  padding-left: 240px;
+}
+.cdek {
+  padding-left: 26px;
+  width: 70px;
+}
+.question {
+  margin-left: 11px;
+}
+.checkbox-customes::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: url('../svg/checked.svg');
+  width: 16px;
+  height: 14px;
+  opacity: 0;
 }
