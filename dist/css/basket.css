@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-decoration: none;
   font-family: 'Open Sans';
 }
 
@@ -55,9 +54,6 @@
 .behringer {
   font-size: 30px;
   padding-left: 48px;
-}
-
-.products__item {
 }
 
 .products__item__wrap {
@@ -317,6 +313,7 @@
 .label {
   position: relative;
   display: flex;
+  margin: 0 0 19px 0;
 }
 
 .checkbox-original {
@@ -373,4 +370,41 @@
   width: 16px;
   height: 14px;
   opacity: 0;
+}
+.delivery_input {
+  margin: 37px 0 0 269px;
+}
+.payment-method {
+  font-family: 'Open Sans';
+  font-size: 24px;
+  margin: 49px 0 0 240px;
+}
+.delivery_cart {
+  margin: 49px 0 0 240px;
+}
+.note_to {
+  font-family: Open Sans;
+  font-size: 24px;
+  margin: 49px 0 0 240px;
+}
+.note_to_order {
+  margin: 49px 0 133px 240px;
+  font-family: Montserrat;
+  font-size: 14px;
+  width: 996px;
+  height: 118px;
+  top: 1154px;
+  left: 255px;
+  border-radius: 9px;
+  text-align: center;
+}
+.prizent_plagin {
+  text-decoration: none;
+}
+.video_text {
+  text-decoration: none;
+}
+.contract_offer {
+  color: black;
+  text-decoration: underline;
 }
