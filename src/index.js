@@ -1,1 +1,3 @@
-// console.log('гайс вы проиграли')
+import Initswiper from './modules/swiper'
+
+Initswiper()

@@ -1,0 +1,112 @@
+.catalog-swiper {
+	margin-top: 32px;
+}
+.swiper {
+	width: 1440px;
+	height: 370px;
+	border-radius: 10px;
+}
+.swiper-pagination {
+	margin-top: 20px !important;
+}
+.swiper-pagination-horizontal {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.swiper-pagination-horizontal.swiper-pagination-bullets
+	.swiper-pagination-bullet {
+	margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 4px);
+}
+.swiper-pagination-bullet-active {
+	background-color: rgba(217, 40, 28, 1) !important;
+	width: 12px !important;
+	height: 12px !important;
+	margin: 0 15px !important;
+}
+.swiper-pagination-horizontal.swiper-pagination-bullets
+	.swiper-pagination-bullet {
+	margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 3px);
+}
+.swiper-pagination-bullet {
+	width: var(
+		--swiper-pagination-bullet-width,
+		var(--swiper-pagination-bullet-size, 7px)
+	);
+	height: var(
+		--swiper-pagination-bullet-height,
+		var(--swiper-pagination-bullet-size, 7px)
+	);
+}
+.swiper-button-prev {
+	height: 45px !important;
+	width: 45px !important;
+	border-radius: 45px !important;
+	background-color: rgba(255, 255, 255, 0.21) !important;
+}
+.swiper-button-prev:after {
+	font-size: 20px !important;
+	color: rgba(255, 255, 255, 0.2) !important;
+}
+.swiper-button-next {
+	height: 45px !important;
+	width: 45px !important;
+	border-radius: 45px !important;
+	background-color: rgba(255, 255, 255, 0.21) !important;
+}
+.swiper-button-next:after {
+	font-size: 20px !important;
+	color: rgba(255, 255, 255, 0.2) !important;
+}
+.swiper-slide {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.swiper-slide__content img {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.swiper-slide__detail {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: white;
+	position: absolute;
+}
+.name {
+	display: flex;
+	flex-direction: column;
+	margin-right: 483px;
+	/* margin-left: 43px; */
+}
+.name__name {
+	font-family: Open Sans;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 41px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.name__price {
+	margin-top: 23px;
+	font-family: Open Sans;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 25px;
+	letter-spacing: 0em;
+	text-align: left;
+	text-decoration: line-through;
+}
+.price {
+	margin-right: 213px;
+	font-family: Open Sans;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 41px;
+	letter-spacing: 0em;
+	text-align: left;
+}

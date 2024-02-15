@@ -4,7 +4,6 @@ footer {
 }
 .footer {
 	display: flex;
-	/* justify-content: center; */
 	align-items: center;
 }
 .logo {
@@ -25,10 +24,6 @@ footer {
 	background: linear-gradient(270deg, #d9281c 0%, #ff5145 100%);
 	background-clip: text;
 	color: transparent;
-}
-.links {
-	/* display: flex;
-	flex-wrap: wrap; */
 }
 .links__list {
 	column-count: 3;
@@ -66,36 +61,8 @@ footer {
 	margin-right: 14px;
 	width: 10%;
 }
-/* .masterCard {
-	width: 42px;
-	height: 25px;
-}
-.maestro {
-	width: 42px;
-	height: 25px;
-}
-.visa {
-	width: 57px;
-	height: 17px;
-}
-.mir {
-	margin: 61px;
-	height: 17px;
-}
-.io {
-	margin: 37px;
-	height: 25px;
-}
-.unionplay {
-	width: 110px;
-	height: 25px;
-} */
 .social {
 	margin-top: 27px;
-	/* display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	flex-direction: column; */
 }
 .social_title {
 	font-family: Open Sans;

@@ -1,0 +1,40 @@
+.categories {
+	margin-top: 92px;
+}
+.categories h1 {
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	font-family: Open Sans;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 49px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.categorie {
+	display: flex;
+	flex-direction: column;
+}
+.categorie__categorie {
+	column-gap: 257px;
+	column-count: 3;
+}
+.categorie__categorie li {
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+}
+.categorie__categorie li img {
+	margin-right: 20px;
+	width: 58px;
+	height: 58px;
+}
+.categorie__categorie li p {
+	font-family: Open Sans;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 25px;
+	letter-spacing: 0em;
+	text-align: left;
+}

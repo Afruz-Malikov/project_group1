@@ -5,7 +5,9 @@
 	box-sizing: border-box;
 	font-family: Open Sans;
 }
-
+/* body {
+	background: linear-gradient(270deg, #d9281c 0%, #ff5145 100%);
+} */
 img,
 svg {
 	display: block;
@@ -40,6 +42,9 @@ a {
 	text-decoration: none;
 }
 .container {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
 	max-width: 1472px;
 	width: 100%;
 	margin: 0 auto;
@@ -52,8 +57,11 @@ a {
 	padding: 0 16px 25px;
 }
 .footer-container {
+	/* display: flex;
+	flex-direction: column;
+	min-height: 100%; */
 	max-width: 1472px;
 	width: 100%;
 	margin: 0 auto;
-	padding: 51px 16px 37px;
+	padding: 51px 20px 37px 16px;
 }
