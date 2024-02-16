@@ -6,189 +6,176 @@
 		<title>Document</title>
 		<link rel="stylesheet" href="./css/style.css" />
 		<script src="./js/main.js"></script>
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-			crossorigin="anonymous" />
 	</head>
 	<body>
 		<header class="header">
-			<div class="container">
+			<div class="header-container">
 				<!-- Менюшка -->
-				<section class="navbarMenu">
+				<section class="header__navbar-menu">
 					<nav class="nav-menu">
 						<a href="#" class="header__nav-menu__link"> Главная </a>
 						<a href="#" class="header__nav-menu__link"> О Нас </a>
 						<a href="#" class="header__nav-menu__link"> Бренды </a>
 					</nav>
 				</section>
-				<!-- Навбар -->
-				<section class="second_navbar">
-					<!-- Кнопка-Каталог -->
-					<nav class="catalog-menu">
-						<button class="catalog-menu__button">
-							<img src="./svg/modalWbutton.svg" alt="error" />
+				<section class="header__content">
+					<div class="button-logo">
+							<button class="button-modal">
+								<img src="./svg/modalWbutton.svg" alt="error">
+							</button>
+							<a href="#">
+								<img src="./svg/Ikisound_logo.svg" alt="error">
+							</a>
+							<span class="ikisound">ikisound</span>
+					</div>
+					<div class="search">
 						</button>
-						<!-- Лого -->
-						<nav class="logo">
-							<img src="./svg/Ikisound.svg" alt="error" />
+							<form class="search__form">
+									<img src="./svg/search__header.svg" alt="error">
+								<input type="text" placeholder="Поиск в каталоге товаров"> 
+							
+							</form>
+						</div>
+						<div class="catalog-callback-specialy-basket">
+          <div class="callback">
+						<nav class="callback__number">
+							<img src="./svg/calback__header.svg" alt="error">
+							<a href="#">8 800 444 20 35</a>
 						</nav>
-					</nav>
-
-					<!-- Поисковик  -->
-					<nav class="search">
-						<form>
-							<img src="./svg/search__header.svg" alt="error" />
-							<input
-								type="text"
-								placeholder="              Поиск в каталоге товаров" />
-						</form>
-					</nav>
-					<!-- Остальные Возможности -->
-					<nav class="callback">
-						<ul class="callback__menu">
-							<li class="number">
-								<a href="#">8 800 444 20 35</a>
-							</li>
-							<li class="call">
-								<a href="#">Обратная связь</a>
-							</li>
-						</ul>
-					</nav>
-					<nav class="special">
-						<a href="">
-							<img src="./svg/special.svg" alt="error" />
-						</a>
-						<a href=""> Избранное </a>
-						<span class="counters"> 0 </span>
-					</nav>
-					<nav class="basket">
+						<nav class="callback__callback">
+							<a href="#">Обратная связь</a>
+						</nav>
+					</div>
+          <div class="special">
+						<!-- <span class="special__counter">0</span> -->
 						<a href="#">
-							<img src="./svg/basket.svg" alt="error" />
+							<img src="./svg/heart__header.svg" alt="error">
 						</a>
-						<span class="counterb">0</span>
-					</nav>
-				</section>
-			</div>
+						<a href="#" class="special__title">
+							Избранное
+						</a>
+					</div>
+					<div class="basket">
+						<!-- <span class="basket__counter">0</span> -->
+						<a href="#">
+							<img src="./svg/basket.svg" alt="error">
+						</a>
+						<a href="#" class="basket__title">
+							Корзина
+						</a>
+					</div>
+						</div>
 		</header>
 		<main>
 			<div class="container">
-				<section class="slider">
-					<div class="container">
-						<div
-							id="carouselExampleAutoplaying"
-							class="carousel slide"
-							data-bs-ride="carousel">
-							<div class="carousel-inner">
-								<div
-									class="carousel-item active slider-item"
-									style="background-image: url(./img/headphon.png)">
-									<div class="slider-item-wrap">
-										<h3 class="slider-item-title">Beyerdynamic DT 770 PRO</h3>
-
-										<p class="price">
-											<s>18 200 руб</s>
-										</p>
-									</div>
-
-									<p class="new-price">15 250 руб</p>
-								</div>
-								<div
-									class="carousel-item slider-item"
-									style="background-image: url(./img/headphon.png)">
-									<div class="slider-item-wrap">
-										<h3 class="slider-item-title">Beyerdynamic DT 770 PRO</h3>
-
-										<p class="price">
-											<s>18 200 руб</s>
-										</p>
-									</div>
-
-									<p class="new-price">15 250 руб</p>
-								</div>
-								<div
-									class="carousel-item slider-item"
-									style="background-image: url(./img/headphon.png)">
-									<div class="slider-item-wrap">
-										<h3 class="slider-item-title">Beyerdynamic DT 770 PRO</h3>
-
-										<p class="price">
-											<s>18 200 руб</s>
-										</p>
-									</div>
-
-									<p class="new-price">15 250 руб</p>
-								</div>
-							</div>
-							<button
-								class="carousel-control-prev"
-								type="button"
-								data-bs-target="#carouselExampleAutoplaying"
-								data-bs-slide="prev">
-								<span
-									class="carousel-control-prev-icon"
-									aria-hidden="true"></span>
-								<span class="visually-hidden">Previous</span>
-							</button>
-							<button
-								class="carousel-control-next"
-								type="button"
-								data-bs-target="#carouselExampleAutoplaying"
-								data-bs-slide="next">
-								<span
-									class="carousel-control-next-icon"
-									aria-hidden="true"></span>
-								<span class="visually-hidden">Next</span>
-							</button>
-						</div>
-					</div>
-				</section>
-				<nav class="kategoriya">
-					<h1><b>Категории</b></h1>
-					<div class="kat">
-						<a class="ssilki" href="#">
-							<img class="colonka" src="./img/colonka.png" alt="" />
-							<h3>Оборудование студийное</h3>
-						</a>
-						<a class="ssilki" href="#">
-							<img class="mikr" src="./img/microfon.png" alt="" />
-							<h3>Оборудование концертное</h3>
-						</a>
-						<a class="ssilki" href="#">
-							<img class="disk" src="./img/diskovod.png" alt="" />
-							<h3>Оборудование для Dj / Лайва</h3>
-						</a>
-						<a class="ssilki" href="#">
-							<img class="git" src="./img/guitar.png" alt="" />
-							<h3>Гитары</h3>
-						</a>
-						<a class="ssilki" href="#">
-							<img class="pian" src="./img/piano.png" alt="" />
-							<h3>Клавишные и синтезаторы</h3>
-						</a>
-						<a class="ssilki" href="#">
-							<img class="xz1" src="./img/xz.png" alt="" />
-							<h3>Аксессуары</h3>
-						</a>
-						<a class="ssilki" href="#">
-							<img class="urok" src="./img/video-urok.png" alt="" />
-							<h3>Видеокурсы</h3>
-						</a>
-						<a class="ssilki" href="#">
-							<img class="prog" src="./img/muz-prog.png" alt="" />
-							<h3>Программы музыкальные</h3>
-						</a>
-					</div>
-				</nav>
+			
 			</div>
 		</main>
-		<footer></footer>
+		<footer>
+			<div class="footer-container">
+				<section class="footer">
+							<div class="logo">
+					<a href="#">
+						<img src="./svg/foterlogo.svg" alt="error">
+					</a>
+        <a href="#" class="logo__ikisound">ikisound</a>
+				</div>	
+				<div class="links">
+					<ul class="links__list">
+						<li>
+							<a href="#">Главная</a>
+						</li>
+						<li>
+							<a href="#">Оплата</a>
+						</li>
+						<li><a href="#">Доставка
+						</a>
+					</li>
+					<li><a href="#">Гарантия
+					</a>
+				</li>
+				<li><a href="#">Контакты
+				</a>
+			</li>
+			<li><a href="#">Договор оферты
+			</a>
+		</li>
+		<li><a href="#">О нас
+		</a>
+	</li>
+	<li><a href="#">Бренды
+	</a>
+</li>
+<li><a href="#">Каталог
+</a>
+</li>
+<li><a href="#">Статьи
+</a>
+</li>
+<li><a href="#">Обратная связь
+</a>
+</li>
+<li><a href="#">Корзина
+</a>
+</li>
+<li><a href="#">Магазин оборудования
+</a>
+</li>
+<li><a href="#">Энциклопедия звука
+</a>
+</li>
+<li><a href="#">Обзоры оборудования
+</a>
+</li>
+<li><a href="#">Видеокурсы</a></li>
+</ul>
+</div>
+<div class="other">
+	<div class="payment">
+   <h1 class="payment__title">
+		СПОСОБЫ ОПЛАТЫ
+	 </h1>
+	 <div class="payment__carts">
+	
+     <img src="./img/masterCard.png" alt="error" class="masterCard">
+		
+	
+     <img src="./img/maestro.png" alt="error" class="maestro">
+		
+	
+     <img src="./img/visa.png" alt="error" class="visa">
+		
+	
+     <img src="./img/mir.png" alt="error" class="mir">
+		
+	
+     <img src="./img/io.png" alt="error" class="io">
+		
+	
+     <img src="./img/unionPlay.png" alt="error" class="unionplay">
+		
+	 </div>
+	</div>
+  <div class="social">
+		<h1 class="social_title">МЫ В СОЦИАЛЬНЫХ СЕТЯХ</h1>
+		<div class="media">
+		<a href="#" class="media__youtube">
+			<img src="./svg/youTube.svg" alt="error" class="youtube" >
+		</a>
+				<a href="#" class="media__vk">
+					<img src="./svg/vk.svg" alt="error" class="vk">
+				</a>
+				<span>Группа магазина</span>
+						<a href="#" class="media__vk"><img src="./svg/vk.svg" alt="error"></a>
+				<span>Энциклопедия звука</span>
+		</div>
+	</div>
+</div	>
+				</section>
+		
+			
+</div>
+</footer>
 
-		<!-- Libs -->
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-			crossorigin="anonymous"></script>
-	</body>
+</body>
 </html>
