@@ -1,0 +1,19 @@
+.maine_favorites {
+  font-family: Open Sans;
+  font-size: 16px;
+  display: flex;
+  gap: 10px;
+  color: #6d6d6d;
+  margin: 50px 0 40px 240px;
+}
+.favourite__wrap {
+  display: flex;
+  margin: 39px 0 25px 239px;
+  margin-left: 239px;
+  margin-bottom: 39px;
+}
+.ab {
+  font-family: Open Sans;
+  font-size: 36px;
+  margin: 21px 0 40px 250px;
+}
