@@ -17,3 +17,124 @@
   font-size: 36px;
   margin: 21px 0 40px 250px;
 }
+.wiki {
+  font-family: Montserrat;
+  font-size: 24px;
+  margin: 40px 0 40px 239px;
+}
+li {
+  color: red;
+}
+li a {
+  color: #277eff;
+}
+li span {
+  color: black;
+}
+.youtube {
+  margin: 60px 0 60px 240px;
+}
+.div_youtube {
+  width: 1050px;
+}
+.youtube a {
+  color: #277eff;
+}
+.other_task {
+  margin: 0 0 30px 240px;
+}
+.difference_from_others {
+  margin: 60px 0 60px 240px;
+}
+.other_tas {
+  width: 1100px;
+  margin: 0 0 100px 0;
+}
+.difference {
+  margin: 60px 0 25px 240px;
+  padding: 50px 0 50px 0;
+}
+.difference p {
+  font-family: Montserrat;
+  font-size: 24px;
+
+  margin: 60px 0 60px 0px;
+}
+li p {
+  color: black;
+  width: 1100px;
+}
+.purchase {
+  width: 700px;
+}
+.our_difference {
+  background-color: #f5f6f8;
+}
+.problem-solving {
+  font-family: Open Sans;
+  font-size: 36px;
+}
+.staff_manager {
+  flex-direction: column;
+}
+.staff_manager div {
+  margin: 60px 0 25px 240px;
+}
+.meneger {
+  font-family: Montserrat;
+  font-size: 24px;
+  width: 750px;
+  margin: 0 0 60px 0;
+}
+.equipment_selection {
+  font-family: Montserrat;
+  font-size: 18px;
+  width: 660px;
+}
+.nonstandard_difficulties {
+  font-family: Montserrat;
+  font-size: 18px;
+  width: 800px;
+  margin: 30px 0 0 0;
+}
+.nonstandard_difficulties a {
+  color: #005ae0;
+}
+.button_help_alfa {
+  display: flex;
+  gap: 198px;
+  margin: 60px 0 99px 0;
+}
+.Encyclopedia_of_sound {
+  display: block;
+  margin: 0 0 0 240px;
+  width: 203px;
+  height: 51px;
+  border-radius: 71px;
+  color: white;
+  background: linear-gradient(270deg, #d9281c 0%, #ff5145 100%);
+}
+.Equipment-store {
+  display: block;
+  width: 203px;
+  height: 51px;
+  border-radius: 71px;
+  color: white;
+  background: linear-gradient(270deg, #d9281c 0%, #ff5145 100%);
+}
+.YouTube {
+  display: block;
+  width: 203px;
+  height: 51px;
+  border-radius: 71px;
+  color: white;
+  background: linear-gradient(270deg, #d9281c 0%, #ff5145 100%);
+}
+.In-contact-with {
+  display: block;
+  width: 203px;
+  height: 51px;
+  border-radius: 71px;
+  color: white;
+  background: linear-gradient(270deg, #d9281c 0%, #ff5145 100%);
+}
