@@ -1,4 +1,7 @@
 .categories {
+	max-width: 1920px;
+	margin: 0 auto;
+	padding: 0 240px;
 	margin-top: 92px;
 }
 .categories h1 {
