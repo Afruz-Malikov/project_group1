@@ -60,6 +60,8 @@
   display: flex;
   margin-left: 239px;
   margin-bottom: 39px;
+  background-color: #f5f6f8;
+  padding: 35px 0 29px 0;
 }
 
 .products__row {
@@ -151,6 +153,9 @@
 .products_total_price {
   background-color: #f5f6f8;
   margin-left: 48px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 5px;
+  height: fit-content;
 }
 
 .prizent_plagin {
@@ -227,6 +232,7 @@
   border-radius: 21px;
   border: 1px;
   text-align: center;
+  margin: 0 0 20px 0;
 }
 
 .name {
@@ -245,6 +251,7 @@
   border-radius: 21px;
   border: 1px;
   text-align: center;
+  margin: 0 0 20px 0;
 }
 .city {
   width: 360px;
@@ -254,6 +261,7 @@
   border-radius: 21.5px;
   border: 1px;
   text-align: center;
+  margin: 0 0 20px 0;
 }
 .strite {
   width: 360px;
@@ -263,6 +271,7 @@
   border-radius: 21.5px;
   text-align: center;
   border: 1px;
+  margin: 0 0 20px 0;
 }
 .index {
   width: 360px;
@@ -289,7 +298,6 @@
     rgba(255, 0, 0, 1) 49%,
     rgba(167, 0, 0, 1) 100%
   );
-
   border: 0;
 }
 .checkout {
@@ -307,7 +315,8 @@
 .nav {
   display: flex;
   gap: 5px;
-  margin-top: 15px;
+  margin: 15px 0 0 0;
+  justify-content: center;
 }
 
 .label {
@@ -373,6 +382,8 @@
 }
 .delivery_input {
   margin: 37px 0 0 269px;
+  background-color: #f5f6f8;
+  padding: 20px 0 20px 23px;
 }
 .payment-method {
   font-family: 'Open Sans';
@@ -381,6 +392,8 @@
 }
 .delivery_cart {
   margin: 49px 0 0 240px;
+  background-color: #f5f6f8;
+  padding: 20px 0 20px 23px;
 }
 .note_to {
   font-family: Open Sans;
@@ -407,4 +420,8 @@
 .contract_offer {
   color: black;
   text-decoration: underline;
+}
+.scam {
+  justify-content: center;
+  text-align: center;
 }
