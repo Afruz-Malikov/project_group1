@@ -11,65 +11,6 @@
   </head>
 
   <body>
-    <header class="header">
-			<div class="header-container">
-				<!-- Менюшка -->
-				<section class="header__navbar-menu">
-					<nav class="nav-menu">
-						<a href="#" class="header__nav-menu__link"> Главная </a>
-						<a href="#" class="header__nav-menu__link"> О Нас </a>
-						<a href="#" class="header__nav-menu__link"> Бренды </a>
-					</nav>
-				</section>
-				<section class="header__content">
-					<div class="button-logo">
-							<button class="button-modal">
-								<img src="./svg/modalWbutton.svg" alt="error">
-							</button>
-							<a href="#">
-								<img src="./svg/Ikisound_logo.svg" alt="error">
-							</a>
-							<span class="ikisound">ikisound</span>
-					</div>
-					<div class="search">
-						</button>
-							<form class="search__form">
-									<img src="./svg/search__header.svg" alt="error">
-								<input type="text" placeholder="Поиск в каталоге товаров"> 
-							
-							</form>
-						</div>
-						<div class="catalog-callback-specialy-basket">
-          <div class="callback">
-						<nav class="callback__number">
-							<img src="./svg/calback__header.svg" alt="error">
-							<a href="#">8 800 444 20 35</a>
-						</nav>
-						<nav class="callback__callback">
-							<a href="#">Обратная связь</a>
-						</nav>
-					</div>
-          <div class="special">
-						<!-- <span class="special__counter">0</span> -->
-						<a href="#">
-							<img src="./svg/heart__header.svg" alt="error">
-						</a>
-						<a href="#" class="special__title">
-							Избранное
-						</a>
-					</div>
-					<div class="basket">
-						<span class="basket__counter">0</span>
-						<a href="#">
-							<img src="./svg/basket.svg" alt="error">
-						</a>
-						<a href="./basket.html" class="basket__title">
-							Корзина
-						</a>
-					</div>
-						</div>
-		</header>
-
 
     <!-- MAIN -->
     
@@ -99,9 +40,9 @@
                   </div>
 
                   <div class="quantity">
-                    <button class="minus">-</button>
-                    <strong class="number">1</strong>
-                    <button class="place">+</button>
+                    <button class="minus" onclick="decrement()">-</button>
+                    <strong class="number" id="result">0</strong>
+                    <button class="place" onclick="increment()">+</button>
                     <div class="quantity__extra">
                       <a href="#!" class="quantity__extra-btn">Удалить</a>
                       <a href="#!" class="quantity__extra-btn">В избранное</a>
@@ -309,110 +250,6 @@
         </div>
       </section>
     </main>
-    <footer>
-			<div class="footer-container">
-				<section class="footer">
-							<div class="logo">
-					<a href="#">
-						<img src="./svg/foterlogo.svg" alt="error">
-					</a>
-        <a href="#" class="logo__ikisound">ikisound</a>
-				</div>	
-				<div class="links">
-					<ul class="links__list">
-						<li>
-							<a href="#">Главная</a>
-						</li>
-						<li>
-							<a href="#">Оплата</a>
-						</li>
-						<li><a href="#">Доставка
-						</a>
-					</li>
-					<li><a href="#">Гарантия
-					</a>
-				</li>
-				<li><a href="#">Контакты
-				</a>
-			</li>
-			<li><a href="#">Договор оферты
-			</a>
-		</li>
-		<li><a href="#">О нас
-		</a>
-	</li>
-	<li><a href="#">Бренды
-	</a>
-</li>
-<li><a href="#">Каталог
-</a>
-</li>
-<li><a href="#">Статьи
-</a>
-</li>
-<li><a href="#">Обратная связь
-</a>
-</li>
-<li><a href="#">Корзина
-</a>
-</li>
-<li><a href="#">Магазин оборудования
-</a>
-</li>
-<li><a href="#">Энциклопедия звука
-</a>
-</li>
-<li><a href="#">Обзоры оборудования
-</a>
-</li>
-<li><a href="#">Видеокурсы</a></li>
-</ul>
-</div>
-<div class="other">
-	<div class="payment">
-   <h1 class="payment__title">
-		СПОСОБЫ ОПЛАТЫ
-	 </h1>
-	 <div class="payment__carts">
-	
-     <img src="./img/masterCard.png" alt="error" class="masterCard">
-		
-	
-     <img src="./img/maestro.png" alt="error" class="maestro">
-		
-	
-     <img src="./img/visa.png" alt="error" class="visa">
-		
-	
-     <img src="./img/mir.png" alt="error" class="mir">
-		
-	
-     <img src="./img/io.png" alt="error" class="io">
-		
-	
-     <img src="./img/unionPlay.png" alt="error" class="unionplay">
-		
-	 </div>
-	</div>
-  <div class="social">
-		<h1 class="social_title">МЫ В СОЦИАЛЬНЫХ СЕТЯХ</h1>
-		<div class="media">
-		<a href="#" class="media__youtube">
-			<img src="./svg/youTube.svg" alt="error" class="youtube" >
-		</a>
-				<a href="#" class="media__vk">
-					<img src="./svg/vk.svg" alt="error" class="vk">
-				</a>
-				<span>Группа магазина</span>
-						<a href="#" class="media__vk"><img src="./svg/vk.svg" alt="error"></a>
-				<span>Энциклопедия звука</span>
-		</div>
-	</div>
-   </div	>
-				</section>
-		
-			
-</div>
-</footer>
+  
   </body>
 </html>
