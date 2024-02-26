@@ -1,7 +1,0 @@
-@import url(./base.css);
-@import url(./headerIndex.css);
-@import url(./footerIndex.css);
-@import url(./mainIndex.css);
-
-/* Ребята для удобства я создал несколько css файлов для каждого своя часть,чтобы мне и вам было легче верстать */
-/* а также установите node_modules чтобы запустить проект через нод(так удобней)  */
