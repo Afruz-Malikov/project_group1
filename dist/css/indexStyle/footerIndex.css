@@ -1,0 +1,90 @@
+footer {
+	background-color: black;
+	/* flex: 0 0 auto; */
+}
+.footer {
+	display: flex;
+	align-items: center;
+}
+.logo {
+	display: flex;
+	align-items: center;
+	margin-right: 60px;
+}
+.logo a img {
+	width: 98px;
+	height: 98px;
+}
+.logo__ikisound {
+	margin-left: 20px;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 130%;
+	text-transform: uppercase;
+	background: linear-gradient(270deg, #d9281c 0%, #ff5145 100%);
+	background-clip: text;
+	color: transparent;
+}
+.links__list {
+	column-count: 3;
+	column-gap: 75px; /* Устанавливаем промежуток между колонками */
+	list-style: none;
+	padding: 0;
+}
+.links__list li a {
+	color: #fff;
+}
+.links__list li {
+	margin-bottom: 10px;
+}
+.other {
+	margin-left: 77px;
+	display: flex;
+	flex-direction: column;
+}
+.payment {
+	display: flex;
+	flex-direction: column;
+}
+.payment__title {
+	font-family: Open Sans;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 27px;
+	color: rgba(198, 198, 198, 1);
+}
+.payment__carts {
+	margin-top: 21px;
+	display: flex;
+}
+.payment__carts img {
+	margin-right: 14px;
+	width: 10%;
+}
+.social {
+	margin-top: 27px;
+}
+.social_title {
+	font-family: Open Sans;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 27px;
+	color: rgba(198, 198, 198, 1);
+}
+.media {
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+}
+.media span {
+	font-family: Open Sans;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #fff;
+}
+
+.media__vk {
+	margin-left: 25px;
+	margin-right: 10px;
+}
